@@ -1,18 +1,89 @@
 body{
-
+	font-family: 'Segoe UI', Arial, sans-serif;
+	color:  #464b4f;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 42px;
 }
-
-
-
+.ba-header {
+	background-color: #23232e;
+	color: #FFF;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.ba-logo {
+	display: inline-block;
+	height: 134px;
+	width: 134px;
+	background: url(../img/logo.png);
+	margin-bottom: 185px;
+}
+.ba-page-title {
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+.ba-description {
+	color: rgba(255, 255, 255, 0.6);
+	max-width: 420px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 0px auto;
+	margin-bottom: 190px;
+}
+.ba-main {
+	background: url("../img/bg.jpg");
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.ba-name{
+	text-align: center;
+	color:  #464b4f;
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.ba-column h3 {
+	color: #464b4f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.ba-section-one {
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 90px;
+	text-align: center;
+}
+.ba-name {
+	margin-top: 110px;
+}
+.ba-section-two {
+	font-size: 0;
+	margin: 0 -20px;
+}
+.ba-column {
+	color:  #888a8b;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	display: inline-block;
+	width: 33.33%;
+	padding: 0 20px;
+	vertical-align: top;
+}
 /* Layout */
 .ba-container{
+	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	max-width: 1200px;
+	max-width: 940px;
 }
-
-
-
 /* Typography */
 a,
 input[type="submit"],
@@ -58,5 +129,4 @@ select:focus {
 
 }
 textarea {
-
 }
